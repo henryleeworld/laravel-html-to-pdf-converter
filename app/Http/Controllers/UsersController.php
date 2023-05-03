@@ -20,7 +20,7 @@ class UsersController extends Controller
 
         // share data to view
         view()->share('users', $data);
-        $pdf = PDF::loadView('users', $data);
+        $pdf = PDF::loadView('users', $data->toArray());
 
         // download PDF file with download method
         return $pdf->download('users_data.pdf');
