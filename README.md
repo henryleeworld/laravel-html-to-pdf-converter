@@ -1,4 +1,4 @@
-# Laravel 9 HTML 轉 PDF 轉換器
+# Laravel 10 HTML 轉 PDF 轉換器
 
 引入 barryvdh 的 laravel-dompdf 套件來擴增使用 DomPDF 將 HTML 轉換為 PDF。DomPDF 遵循 CSS2.1 的 HTML 佈局，它是用 PHP 編寫的渲染引擎。
 
