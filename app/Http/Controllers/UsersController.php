@@ -15,6 +15,7 @@ class UsersController extends Controller
 
     // Generate PDF
     public function createPDF() {
+        set_time_limit(300);
         // retreive all records from db
         $data = User::all();
 

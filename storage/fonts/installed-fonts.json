@@ -1,8 +1,5 @@
 {
-    "hanwangming light": {
-        "normal": "wt001",
-        "bold": "wt001",
-        "italic": "wt001",
-        "bold_italic": "wt001"
+    "notosanstc": {
+        "normal": "notosanstc_normal_602ae7da41a6385824b26b9996ff34f3"
     }
 }
